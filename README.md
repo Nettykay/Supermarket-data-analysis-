@@ -63,14 +63,16 @@ Implication: The median is the more reliable measure of a typical transaction. M
 
 **Scatter Plot — Total Bill vs. Quantity**
 
-<img width="509" height="314" alt="image" src="https://github.com/user-attachments/assets/2b5f28c8-ce3b-4d65-b914-eaacf4d3d9ed" />
+<img width="507" height="318" alt="image" src="https://github.com/user-attachments/assets/b469490f-0782-4675-af2d-9a30aa2addcb" />
+
 
 
 A positive linear relationship exists between quantity and total bill (R² = 0.4957) — roughly 49.6% of the variation in total bill is explained by quantity alone. A moderate, meaningful correlation.
 
 **Bar Chart — Revenue by Branch**
 
-<img width="602" height="355" alt="image" src="https://github.com/user-attachments/assets/e7c953ae-533e-4676-8331-5287c35d3787" />
+<img width="614" height="343" alt="image" src="https://github.com/user-attachments/assets/70a97360-c936-437a-bb26-d7343a49437e" />
+
 
 
 BranchTotal RevenueAlexandria$103,013Cairo$102,875Giza$107,993
@@ -79,7 +81,8 @@ All three branches land in a tight revenue band; Giza leads by a slim but consis
 
 **Pie Chart — Payment Method Breakdown**
 
-<img width="543" height="348" alt="image" src="https://github.com/user-attachments/assets/7834f2bd-046d-4a5b-9486-c9c4a5ed5d31" />
+<img width="525" height="346" alt="image" src="https://github.com/user-attachments/assets/04aa56aa-f9ae-472e-9e90-6dc6537be730" />
+
 
 
 MethodShareEwallet35%Cash34%Credit Card31%
@@ -88,7 +91,8 @@ Near-parity across all three channels signals a diverse, digitally-engaged custo
 
 **Histogram — Distribution of Customer Ratings**
 
-<img width="558" height="427" alt="image" src="https://github.com/user-attachments/assets/93e4d24f-06da-4850-b55e-b04407857f29" />
+<img width="569" height="440" alt="image" src="https://github.com/user-attachments/assets/400e0980-4883-460a-90c5-adaabadf9122" />
+
 
 
 Ratings (scale 4–10) are spread fairly uniformly across the range, with a slight bump at the low end and a modest dip at the very top. No strong concentration of top scores — satisfaction is consistent but unremarkable.
@@ -150,14 +154,14 @@ CategoryTool / MethodData CleaningExcel Power QueryDescriptive StatisticsAVERAGE
 **How to Use This Project**
 
 
-Download CLEAN_DATA_PROJECT.xlsx and open it in Excel (Power Query features require the desktop app).
+Download Supermarket Analysis.xlsx and open it in Excel (Power Query features require the desktop app).
 Start with the Clean data sheet — it's the single source of truth feeding every other tab.
 Walk through Stats Summary → Visuals → Distributions → Hypothesis to follow the analysis in order.
 To explore with new data: refresh the Power Query connection on the Clean data sheet, and all downstream formulas and charts will recalculate automatically.
 
 
 
-Data Source & Acknowledgments
+**Data Source & Acknowledgments**
 
 The base transaction data is adapted from the publicly available Supermarket Sales dataset (Kaggle), with branch and city labels recontextualized to Alexandria, Cairo, and Giza for this exercise.
 
