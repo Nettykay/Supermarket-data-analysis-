@@ -67,13 +67,15 @@ Implication: The median is the more reliable measure of a typical transaction. M
 
 Scatter Plot — Total Bill vs. Quantity
 
-Show Image
+<img width="509" height="314" alt="image" src="https://github.com/user-attachments/assets/2b5f28c8-ce3b-4d65-b914-eaacf4d3d9ed" />
+
 
 A positive linear relationship exists between quantity and total bill (R² = 0.4957) — roughly 49.6% of the variation in total bill is explained by quantity alone. A moderate, meaningful correlation.
 
 Bar Chart — Revenue by Branch
 
-Show Image
+<img width="602" height="355" alt="image" src="https://github.com/user-attachments/assets/e7c953ae-533e-4676-8331-5287c35d3787" />
+
 
 BranchTotal RevenueAlexandria$103,013Cairo$102,875Giza$107,993
 
@@ -81,7 +83,8 @@ All three branches land in a tight revenue band; Giza leads by a slim but consis
 
 Pie Chart — Payment Method Breakdown
 
-Show Image
+<img width="543" height="348" alt="image" src="https://github.com/user-attachments/assets/7834f2bd-046d-4a5b-9486-c9c4a5ed5d31" />
+
 
 MethodShareEwallet35%Cash34%Credit Card31%
 
@@ -89,13 +92,13 @@ Near-parity across all three channels signals a diverse, digitally-engaged custo
 
 Histogram — Distribution of Customer Ratings
 
-Show Image
+<img width="558" height="427" alt="image" src="https://github.com/user-attachments/assets/93e4d24f-06da-4850-b55e-b04407857f29" />
+
 
 Ratings (scale 4–10) are spread fairly uniformly across the range, with a slight bump at the low end and a modest dip at the very top. No strong concentration of top scores — satisfaction is consistent but unremarkable.
 
 🔍 Observation — Ewallet Promotion Strategy
 
-Show Image
 
 Giza is the strongest candidate for an Ewallet promotion. It posts the highest total revenue ($107,993), the widest Ewallet transaction spread, and an estimated Ewallet revenue of ~$37,797 (35% × $107,993) — the highest of any branch. A focused promotion here reinforces existing high-value Ewallet behavior for the greatest revenue impact per marketing dollar.
 
@@ -104,9 +107,7 @@ Giza is the strongest candidate for an Ewallet promotion. It posts the highest t
 
 Normal Distribution — Sales Revenue
 
-Show Image
-
-Using Mean = $322.26 and SD = $245.65:
+Using Mean = $322.26 and SD = $245.66:
 
 ScenarioProbabilityCustomer spends ≤ $50076.53%Customer spends ≥ $8002.59%
 
