@@ -59,7 +59,8 @@ MetricValueMean Total Bill$322.26Median Total Bill$253.39Standard Deviation (Tot
 
 🔍 Observation — Skewness in Sales Revenue
 
-Show Image
+<img width="521" height="165" alt="image" src="https://github.com/user-attachments/assets/f18910ad-09bb-4398-833d-a544aad2ab20" />
+
 
 The mean ($322.26) sits well above the median ($253.39) — a gap of $68.87, the classic fingerprint of a right-skewed distribution: a small number of large purchases pull the mean upward while most transactions cluster lower.
 
