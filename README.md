@@ -1,7 +1,5 @@
 # Supermarket-data-analysis-
 
-🛒 Supermarket Pulse
-
 A Data-Driven Operations Analysis of Q1 2019 Supermarket Sales
 
 
@@ -19,23 +17,23 @@ The analysis moves through five stages — data cleaning → descriptive statist
 Completed as the capstone for an Excel for Data Analysis course.
 
 
-📂 Repository Structure
+📂 *Repository Structure*
 
 FileDescriptionREADME.mdProject documentation (this file)SuperMarket Analysis.csvRaw, uncleaned transaction extract (~1,000 rows)CLEAN_DATA_PROJECT.xlsxFull Excel workbook — cleaning, stats, charts, probability models, and hypothesis tests, organized across five sheets (see below)
 
-Workbook sheet map:
+*Workbook sheet map:*
 
 SheetContentsClean dataThe cleaned, analysis-ready dataset (single source of truth)Stats SummaryMean, median, mode, variance, standard deviation, confidence intervalVisualsSource tables and charts: scatter, bar, pie, histogramDistributionsNormal, binomial, Poisson, exponential, and uniform probability modelsHypothesisNull/alternative hypotheses and test framing for two business questions
 
 
-🗂️ Dataset
+🗂️ *Dataset*
 
 AttributeDetailPeriodQ1 2019 (January – March)BranchesAlexandria, Cairo, GizaTotal Rows974 (after cleaning, from ~1,000 raw)Unique Transaction Dates89Tool UsedMicrosoft Excel (Power Query + Formulas + Charts)
 
 Key columns: Invoice ID, Branch, City, Customer Type, Gender, Product Line, Unit Price, Quantity, Tax (5%), Sales (Total), Date, Time, Payment Method, COGS, Gross Margin %, Gross Income, Customer Rating.
 
 
-🔧 Part 1 — Data Cleaning (Power Query)
+🔧 Part 1 — *DATA CLEANING* (Power Query)
 
 The raw extract arrived with several structural issues that would have corrupted any downstream analysis:
 
@@ -49,11 +47,11 @@ Data types: Unit Price and Sales were cast to Currency; Quantity was cast to Who
 The result was loaded into a dedicated Clean data sheet — the single source of truth for everything downstream.
 
 
-📊 Part 2 — Baseline Metrics & Statistical Summary
+📊 Part 2 — *BASELINE METRICS AND STATISTICAL SUMMARY*
 
 MetricValueMean Total Bill$322.26Median Total Bill$253.39Standard Deviation (Total Bill)~$245.65Standard Deviation (Rating)~1.72Margin of Error (95% CI, n = 60)±$61.04 (Z = 1.96)
 
-🔍 Observation — Skewness in Sales Revenue
+🔍 *Observation — Skewness in Sales Revenue*
 
 <img width="521" height="165" alt="image" src="https://github.com/user-attachments/assets/f18910ad-09bb-4398-833d-a544aad2ab20" />
 
@@ -63,7 +61,7 @@ The mean ($322.26) sits well above the median ($253.39) — a gap of $68.87, the
 Implication: The median is the more reliable measure of a typical transaction. Management shouldn't anchor operational expectations to the mean.
 
 
-📈 Part 3 — Visual Dashboard
+📈 Part 3 — *VISUAL DASHBOARD*
 
 Scatter Plot — Total Bill vs. Quantity
 
@@ -103,7 +101,7 @@ Ratings (scale 4–10) are spread fairly uniformly across the range, with a slig
 Giza is the strongest candidate for an Ewallet promotion. It posts the highest total revenue ($107,993), the widest Ewallet transaction spread, and an estimated Ewallet revenue of ~$37,797 (35% × $107,993) — the highest of any branch. A focused promotion here reinforces existing high-value Ewallet behavior for the greatest revenue impact per marketing dollar.
 
 
-🎲 Part 4 — Probability Modeling
+🎲 Part 4 — *PROBABILITY MODELING*
 
 Normal Distribution — Sales Revenue
 
@@ -128,7 +126,7 @@ Uniform (Voucher Draw): Each of 300 receipts has an equal 1/300 (0.33%) chance o
 
 
 
-🧪 Part 5 — Hypothesis Formulation
+🧪 Part 5 — *HYPOTHESIS FORMULATION*
 
 Test 1 — Member vs. Normal Customer Spend
 
